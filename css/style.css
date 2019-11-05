@@ -1,0 +1,60 @@
+body {
+  background: rgba(100, 50, 10, 0.5);
+  font-family: arial;
+  margin: 0;
+}
+
+header {
+  min-height: 100px;
+}
+
+header img {
+  width: 50px;
+}
+
+nav {
+  margin: 0;
+  width: 100vw;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(10, 50, 100, 0.8);
+  overflow: hidden;
+
+}
+
+nav li {
+  float: left;
+
+}
+
+nav li a {
+  display: block;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+div {
+  margin: 0;
+  width: 100vw;
+}
+
+.content {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("../images/random_cat.jpeg");
+  background-size: cover;
+}
