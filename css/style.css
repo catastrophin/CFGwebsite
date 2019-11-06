@@ -6,26 +6,24 @@ body {
 }
 
 header {
-  height: 200px;
+  height: 280px;
   margin: 0;
   padding: 0;
-}
-
-header img {
-  height: 200px;
-  margin: 0;
+  background-image: url("../images/background1.jpg");
+  background-size: cover;
 }
 
 header h1 {
   font-size: 40px;
   margin: 0 100px;
-  padding: 80px 100px;
+  padding: 80px 20px;
+  color: white;
 }
 
 nav {
   margin: 0;
   width: 100vw;
-  background-color: rgba(10, 50, 100, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 nav ul {
@@ -53,7 +51,7 @@ nav li a {
 
 /* Change the link color to #111 (black) on hover */
 nav li a:hover {
-  background-color: #3eF;
+  background-color: black;
 }
 
 div {
@@ -68,8 +66,6 @@ div p {
 .home1 {
   min-height: 100vh;
   min-width: 100vw;
-  background-image: url("../images/background1.jpg");
-  background-size: cover;
 }
 
 .left {
