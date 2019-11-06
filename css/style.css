@@ -73,13 +73,35 @@ div p {
 }
 
 div.books {
+  width: 900px;
+  height: 1000px;
+  margin: 50px auto;
   text-align: center;
-  background: rgba(0, 0, 0, 0.2);
-
+  background: url("../images/bookshelf2.jpg");
+  background-size: 900px 1000px;
 }
+
+div.level1 {
+  position: relative;
+  top:50px;
+  left: -130px;
+}
+
+div.level2 {
+  position: relative;
+  top: 80px;
+  left: -130px;
+}
+
+div.level3 {
+  position: relative;
+  top:90px;
+  left: -130px;
+}
+
 img.store {
-  margin: 10px;
-  padding: 10px;
-  width: 200px;
-  height: 300px;
+  margin: 8px;
+  padding: 8px;
+  width: 170px;
+  height: 260px;
 }
