@@ -1,3 +1,3 @@
-$('.store').on('hover', function() {
+$('.storeitem').on('hover', function() {
   $('.description').toggleClass('hidden');
 });
