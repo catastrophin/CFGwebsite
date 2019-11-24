@@ -9,8 +9,8 @@ header {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-image: url("../images/background1.jpg");
-  background-size: cover;
+  /* background-image: url("../images/background1.jpg"); */
+  /* background-size: cover; */
 }
 
 header h1 {
@@ -52,7 +52,7 @@ nav li a:hover {
 
 div {
   margin: 0;
-  width: 100vw;
+  width: 100%;
 }
 
 div p {
@@ -100,6 +100,18 @@ img.store {
   opacity: 1;
 }
 
+
+
+
+
+/* shelf = bookshelf pic + books */
+div.shelf {
+  width: 100%;
+  position: relative; /*position books in relation to shelf*/
+  padding:0;
+  margin: 0;
+}
+
 .shelfpic img {
   width: 100%;
   padding: 0;
@@ -107,16 +119,8 @@ img.store {
 }
 
 
-/*position books in relation to shelf*/
-
-.shelf {
-  position: relative;
-  padding:0;
-  margin: 0;
-}
-
 .level1 {
-  position: absolute;
+  position: absolute; /*position books in relation to shelf*/
   top: 8%;
   text-align: center;
 }
