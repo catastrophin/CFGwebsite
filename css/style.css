@@ -9,63 +9,35 @@ header{
   position: relative;
 }
 
-#navbar{
-	height: 100px; 
-    background-color: rgba(0,0,0,0.55);
-    box-shadow: 0 5px 8px rgba(0,0,0,.2);
-	position: sticky;
-	margin-top: 70px;
-	z-index: 1;
+nav {
+  background: rgba(12, 12, 12, 0.8);
 }
-
-#navbar .logo {
-    display: block;
-    width: 190px;
-    height: 86px;
-    position: absolute;
-    margin-top: 7px;
-    margin-left: 30px;
-    background: url(img/logo.png) no-repeat 0 0;
-    background-size: 100%;
-    background-color: white; 
-    border-radius: 10px;
+nav ul {
+  /* list-style-type: none;
+  text-align: center; */
 }
-
-#navbar ul{
-	padding: 0;
-    margin: 0 20px 0 0;
-    font-family: "Rock Salt";
-}
-
-#navbar ul li{
-	margin: 0;
-	padding: 0;
-	display: block;
-	float: right;
-}
-
-#navbar ul li a{
-	display: block;
-	height: 100%;
-	box-sizing: border-box;
-	font-size:15px;
-	font-weight: 800;
-	color: orangered;
-	text-decoration: none;
-	padding: 18px 40px;
-	line-height: 50px;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+nav li {
+  /* display: inline-block; */
+  padding: 0 20px;
+  margin: 0;
   }
+nav li a {
+  font-family: "Rock Salt";
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+
 
 #flipbook{
     margin-left: 300px;
   }
-    
+
 #flipbook .shadow, #flipbook.shadow{
   -webkit-box-shadow: 0 4px 10px #666;
   -moz-box-shadow: 0 4px 10px #666;
@@ -80,7 +52,7 @@ body{
 
 .main{
     background-color: rgb(212, 119, 56);
-    height: 500px; 
+    height: 500px;
     margin-top: 70px;
     margin-left: 30px;
     margin-right: 30px;
@@ -125,7 +97,7 @@ body{
 
 .box2{
     background-color: rgb(212, 119, 56);
-    height: 300px; 
+    height: 300px;
     margin-top: 70px;
     margin-left: 30px;
     margin-right: 30px;
@@ -144,5 +116,5 @@ body{
 }
 
 .col-md-3{
-    
+
 }
