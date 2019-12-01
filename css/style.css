@@ -22,6 +22,7 @@ nav li {
   padding: 0 20px;
   margin: 0;
   }
+
 nav li a {
   font-family: "Rock Salt";
   font-size: 20px;
@@ -35,8 +36,6 @@ nav li a {
 nav li a:hover {
   color: orangered;
 }
-
-
 
 .container {
   /* margin-top: 70px; */
@@ -61,6 +60,7 @@ body{
 
 .main{
     background-color: rgb(212, 119, 56);
+    color: aliceblue;
     height: 500px;
     margin-top: 70px;
     margin-left: 30px;
@@ -85,6 +85,10 @@ body{
     padding-right: 20px;
 }
 
+.value {
+  font-family: "Rock Salt";
+}
+
 .slogan{
         margin: 30px auto;
         width: 500px;
@@ -106,6 +110,7 @@ body{
 
 .box2{
     background-color: rgb(212, 119, 56);
+    color: aliceblue;
     height: 300px;
     margin-top: 70px;
     margin-left: 30px;
@@ -124,6 +129,4 @@ body{
     font-size: 100px;
 }
 
-.col-md-3{
 
-}
