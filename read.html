@@ -39,6 +39,8 @@
        <h1>Read with us</h1>
              <b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
              <linebreak>
+             <br>
+             <br>
              <h2> <center>Where can you find us?</center><h2>
 
 <!--google map showing library locations-->
@@ -49,7 +51,7 @@
 
 <!-- button and modal -->
   <div class="modalbutton">
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target=".bd-example-modal-lg">
+    <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg">
       Become a member!
     </button>
   </div>
@@ -77,56 +79,51 @@
               <label for="TelInput">Telephone number</label>
               <input type="tel" class="form-control" id="TelInput" placeholder="+44 79 12345678">
             </div>
+            <br>
             <div>
-            <h3>Which meetups would you like to be notified about?</h3>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="Meetupselector">
-                <label class="form-check-label" for="Meetupselector">
-                Paddington
-                </label>
+            <h5>Which meetups would you like to be notified about?</h5>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="Meetupcheck1">
+                <label class="custom-control-label" for="Meetupcheck1" style="font-size: 16px">The British Library</label>
               </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="Meetupselector2">
-                <label class="form-check-label" for="Meetupselector2">
-                Mayfair
-                </label>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="Meetupcheck2">
+                <label class="custom-control-label" for="Meetupcheck2" style="font-size: 16px">Barking Library</label>
               </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="Meetupselector3">
-                <label class="form-check-label" for="Meetupselector3">
-                St Pancras
-                </label>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="Meetupcheck3">
+                <label class="custom-control-label" for="Meetupcheck3" style="font-size: 16px">Stratford Library</label>
               </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="Meetupselector4">
-                <label class="form-check-label" for="Meetupselector4">
-                Camden
-                </label>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="Meetupcheck4">
+                <label class="custom-control-label" for="Meetupcheck4" style="font-size: 16px">Brixton Library</label>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="Meetupcheck5">
+                <label class="custom-control-label" for="Meetupcheck5" style="font-size: 16px">St. Martin's Lane Library</label>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="Meetupcheck6">
+                <label class="custom-control-label" for="Meetupcheck6" style="font-size: 16px">Paddington Library</label>
               </div>
             </div>
             <br>
             <div>
-            <h3>How would you like to be notified?</h3>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="Notificationselector">
-                <label class="form-check-label" for="Notificationselector">
-                Email
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="Notificationselector2">
-                <label class="form-check-label" for="Notificationselector2">
-                Text message
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="Notificationselector3" disabled>
-                <label class="form-check-label" for="Notificationselector3">
-                App notification (feature coming soon!)
-                </label>
-              </div>
+            <h5>How would you like to be notified?</h5>
+            <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="Notificationselector1">
+            <label class="custom-control-label" for="Notificationselector1" style="font-size: 16px">Email</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="Notificationselector2">
+            <label class="custom-control-label" for="Notificationselector2" style="font-size: 16px">Text message</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="Notificationselector3" disabled>
+            <label class="custom-control-label" for="Notificationselector3" style="font-size: 16px">App notification (feature coming soon!)</label>
             </div>
             <br>
+            </div>
             <div class="form-group">
               <label for="Dropdown">How did you hear about us?</label>
               <select class="form-control" id="Dropdown">
@@ -161,7 +158,7 @@
       </div>
     </div>
   </div>
-
+  <br>
 
 
     <!-- Add font awesome icons -->
