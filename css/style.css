@@ -1,69 +1,143 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
 
-  font-family: arial;
-  margin: 0;
 
+
+/*--------------index page css------------*/
+header{
+  background-image: url(../images/bg4.jpg);
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 0;
 }
 
-header {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  /* background-image: url("../images/background1.jpg"); */
-  /* background-size: cover; */
+.container {
+  /* margin-top: 70px; */
 }
 
+#flipbook{
+    margin-left: 300px;
+    /* margin-top: 100px; */
+  }
+
+#flipbook .shadow, #flipbook.shadow{
+  -webkit-box-shadow: 0 4px 10px #666;
+  -moz-box-shadow: 0 4px 10px #666;
+  -ms-box-shadow: 0 4px 10px #666;
+  -o-box-shadow: 0 4px 10px #666;
+  box-shadow: 0 4px 10px #666;
+}
+
+.indexcontent{
+  margin-top: 0;
+    background-image: url(../images/bg2.jpg);
+}
+
+.main{
+    background-color: rgb(212, 119, 56);
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.main h1{
+    font-family: "Rock Salt";
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.main p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.slogan{
+        margin: 30px auto;
+        width: 500px;
+        height: 120px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.6;
+        text-align: center;
+    }
+
+.slogan p {
+    margin: 8%;
+    font-family: "Rock Salt";
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+.box2{
+    background-color: rgb(212, 119, 56);
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.box2 h1{
+    font-family: "Rock Salt";
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 7px;
+}
+
+.stat-items i {
+    font-size: 100px;
+}
+
+/*
 header h1 {
   font-size: 40px;
   margin: 0 100px;
   padding: 80px 20px;
   color: white;
-}
+} */
 
+/*---------------nav bar styles-------------*/
 nav {
   background: rgba(12, 12, 12, 0.8);
 }
 
-nav ul {
-  /* list-style-type: none;
-  text-align: center; */
-}
-
 nav li {
-  /* display: inline-block; */
   padding: 0 20px;
   margin: 0;
   }
 
-
 nav li a {
+  font-family: "Rock Salt";
   font-size: 20px;
   color: white;
-  text-align: center;
+  /* text-align: center; */
   margin: 0;
   padding: 0;
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 nav li a:hover {
-  color: orange;
-}
-
-div {
-  margin: 0;
-  width: 100%;
-}
-
-div p {
-  margin: 0;
+  color: orangered;
 }
 
 
 
+/* -----------store page css------------ */
 /*books with descriptions shown on hover*/
 
-/*div containing both bookcover and descriptions*/
+/*div containing bookcover and descriptions*/
+
+
+
 div.storeitem {
   margin: 8px;
   /* padding: 8px; */
@@ -101,9 +175,6 @@ img.store {
 }
 
 
-
-
-
 /* shelf = bookshelf pic + books */
 div.shelf {
   width: 100%;
@@ -136,3 +207,55 @@ div.shelf {
   top: 70%;
   text-align: center;
 }
+
+
+/* ----------------------------- */
+
+
+
+/*locations(read with us) page css*/
+
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
+/*social medium icons with font awesome*/
+
+.fa {
+    left: 0;
+    bottom:0;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+      opacity: 0.7;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
