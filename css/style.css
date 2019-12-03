@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
 
 
+body {
+  background-color: #f4b806;
+}
 
 /*--------------index page css------------*/
 header{
@@ -90,6 +93,8 @@ header{
     padding-top: 40px;
     padding-bottom: 7px;
 }
+
+
 
 .value {
   font-family: "Rock Salt";
@@ -183,9 +188,10 @@ img.store {
 /* shelf = bookshelf pic + books */
 div.shelf {
   width: 100%;
+  height: 50%;
   position: relative; /*position books in relation to shelf*/
   padding:0;
-  margin: 0;
+  margin: 70px 0;
 }
 
 .shelfpic img {
