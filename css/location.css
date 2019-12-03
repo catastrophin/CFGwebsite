@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+h1{
+    font-family: "Rock Salt";
+    margin-top: 80px;
+}
+h2{
+    font-family: "Rock Salt";
+    margin-top: 70px;
+}
+h3{
+    font-family: "Rock Salt";
+    margin-top: 70px;
+}
 nav {
   background: rgba(12, 12, 12, 0.8);
 }
 nav ul {
   /* list-style-type: none;
   text-align: center; */
+}
 nav li {
   /* display: inline-block; */
   padding: 0 20px;
@@ -28,3 +43,15 @@ nav li a:hover {
   margin-right: auto;
   width: 50%;
   }
+body{
+  background-color: #f4b806;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 18px;
+}
+span{
+  font-size: 30px;
+}
