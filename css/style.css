@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
 
 
+body {
+  background-color: #f4b806;
+}
 
 /*--------------index page css------------*/
 header{
@@ -90,6 +93,8 @@ header{
     padding-top: 40px;
     padding-bottom: 7px;
 }
+
+
 
 .value {
   font-family: "Rock Salt";
