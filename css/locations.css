@@ -2,7 +2,7 @@
 {
 	display: inline-block;
 	margin-bottom: 0;
-	margin-left:`10px;
+	margin-left:10px;
 	margin-right: 0;
  	border-right-width: 0;
   padding: 30px 30px 70px 30px;
@@ -41,6 +41,7 @@ padding: 60px 120px;
 }
 .dropdown-content p{
   font-size: 18px;
+	margin: 0;
 }
 
 .center {
